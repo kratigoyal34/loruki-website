@@ -323,7 +323,8 @@ code,pre{
  
     .showcase-text{
         text-align:center;
-        margin: top 40px;
+        margin-top: 40px;
+        animation:slideInFromTop 1s ease-in;
     }
  
     .showcase-form{
@@ -332,8 +333,8 @@ code,pre{
     }
  
     .cli .grid > *:first-child{
-     grid-column:1 ;
-     grid-row:1 ;
+     grid-column: 1;
+     grid-row: 1;
     }
 
     .features-head,
